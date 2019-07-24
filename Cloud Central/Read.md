@@ -1,6 +1,6 @@
 ## Task 1: Cloud Central에 Azure Permission 부여
 
- 1.  NetApp Cloud Central에 로그인합니다. (https://cloud.netapp.com) 
+1.  NetApp Cloud Central에 로그인합니다. (https://cloud.netapp.com) 
  
  2.   Policy_for_Setup_As_Service_Azure.json 파일을 다운 받아  수정합니다. ([Policy_for_Setup_As_Service_Azure.json](https://s3.amazonaws.com/occm-sample-policies/Policy_for_Setup_As_Service_Azure.json))       Policy_for_setup_As_Service_Azure.json 파일의 끝부분에 /subscription/ 다음에 각자 본인의 Azure subscription ID값으로 변경하여 수정하고 저장합니다.
        
@@ -11,8 +11,7 @@
     "Description": "Azure SetupAsService",
     "IsCustom": "true"
 ```
-
- 3. 수정한 JSON을 이용해 custom role을 생성하기 위해 azure portal에 접속합니다.
+3. 수정한 JSON을 이용해 custom role을 생성하기 위해 azure portal에 접속합니다.
 
 4. Azure portal에서 제공되는 cloud shell에서 해당 JSON 파일을 업로드합니다. 
 
